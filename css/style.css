@@ -1,7 +1,9 @@
 * {
     -webkit-tap-highlight-color: transparent;
     -webkit-font-smoothing: antialiased;
-    font-family: Gotham;
+}
+.pointer{
+  cursor: pointer;
 }
 .uppercase{
 	text-transform: uppercase;
@@ -53,16 +55,23 @@
 .header img{
 	width:20px;
 }
-.navbar-inverse{
+.transparent-background{
 	background-color: transparent;
+}
+.navbar-inverse{
 	border:none;
 }
 .navbar-brand{
 	padding: 0px 15px; 
 
 }
-.navbar-inverse .navbar-nav>li>a{
-	color: white
+.row{
+	margin-top: 10px;
+}
+.demo{
+	border:2px solid black;
+	height: 100px;
+	width: 100%;
 }
 /********************
  * FEATURE CAROUSEL *
@@ -147,4 +156,15 @@
   bottom:33px;
   right:220px;
   cursor:pointer;
+}
+
+/* library */
+
+.modal-dialog {
+     width: initial; 
+    /* margin: 30px auto; */
+}
+.modal-sidebar-row{
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px
 }
