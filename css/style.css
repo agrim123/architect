@@ -1,6 +1,6 @@
 * {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
 }
 .pointer{
   cursor: pointer;
@@ -14,10 +14,10 @@
 .header{
 
 	height: 500px;
-	    background-size: cover;
-	    background-repeat: no-repeat;
-	background-image: url('../images/head.png');
-	margin-bottom: 30px
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-image: url('../images/head.png');
+ margin-bottom: 30px
 
 }
 .header .col-md-1{
@@ -28,15 +28,15 @@
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-size: cover;
-		background-repeat: no-repeat;
-	background-image: url('../images/library.png');
-	
+  background-repeat: no-repeat;
+  background-image: url('../images/library.png');
+
 }
 .refer{
-		padding-top: 25px;
-		background-size: cover;
-		background-repeat: no-repeat;
-	background-image: url('../images/referback.png');
+  padding-top: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../images/referback.png');
 }
 .white-text{
 	color: white;
@@ -48,9 +48,9 @@
 	margin-top: 50px
 }
 .link-btn{
-	    color: white;
-    text-transform: uppercase;
-    border-radius: 0;
+ color: white;
+ text-transform: uppercase;
+ border-radius: 0;
 }
 .header img{
 	width:20px;
@@ -76,7 +76,7 @@
 /********************
  * FEATURE CAROUSEL *
  ********************/
-.carousel-container {
+ .carousel-container {
   position:relative;
   width:960px;
   margin:auto;
@@ -161,10 +161,35 @@
 /* library */
 
 .modal-dialog {
-     width: initial; 
-    /* margin: 30px auto; */
+ width: initial; 
+ /* margin: 30px auto; */
 }
 .modal-sidebar-row{
   border-bottom: 1px solid gray;
   padding-bottom: 10px
+}
+.tags{
+  height:100%;
+  width: 100%;
+  position: absolute;
+}
+.child {
+ border: 5px solid;
+ left: 48%;
+ position: absolute;
+ font-size: 30px;
+ cursor: pointer;
+ top: 8%;
+ border-radius: 100%;
+ width: 6%;
+ text-align: center;
+ font-weight: 900;
+}
+.child_hover {
+    border: 1px solid black;
+    position: absolute;
+    background: white;
+    padding: 10px;
+    top: 13%;
+    left: 51%;
 }
