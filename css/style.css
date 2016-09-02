@@ -70,12 +70,14 @@
 }
 .demo{
 	border:2px solid black;
-	height: 100px;
+	height: 50vh;
 	width: 100%;
 }
+
 /********************
  * FEATURE CAROUSEL *
  ********************/
+ 
  .carousel-container {
   position:relative;
   width:960px;
